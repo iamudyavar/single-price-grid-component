@@ -29,7 +29,9 @@ p {
     overflow: hidden;
 }
 
-#top, #bottom-left, #bottom-right {
+#top,
+#bottom-left,
+#bottom-right {
     padding: 30px;
 }
 
@@ -66,7 +68,8 @@ p {
     background-color: #2bb3b1;
 }
 
-#bottom-left h4, #bottom-right h4 {
+#bottom-left h4,
+#bottom-right h4 {
     margin-bottom: 25px;
 }
 
@@ -107,7 +110,7 @@ button {
 
 button:hover {
     cursor: pointer;
-    background-color: #a9c42d;;
+    background-color: #a9c42d;
 }
 
 #bottom-right {
