@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+h2, h4, p {
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#card {
+    width: 500px;
+    height: 350px;
+    box-shadow: 3px 3px 9px 0px rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#top {
+    width: 100%;
+    height: 40%;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+#bottom-left {
+    width: 50%;
+    height: 100%;
+    background-color: #2bb3b1;
+}
+
+#bottom-right {
+    width: 50%;
+    height: 100%;
+    background-color: #4abebd;
+}
