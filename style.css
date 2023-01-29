@@ -63,7 +63,6 @@ p {
 }
 
 #bottom-left {
-    width: 50%;
     height: 100%;
     background-color: #2bb3b1;
 }
@@ -114,7 +113,6 @@ button:hover {
 }
 
 #bottom-right {
-    width: 50%;
     height: 100%;
     background-color: #4abebd;
 }
@@ -125,4 +123,15 @@ button:hover {
     list-style: none;
     font-size: .8rem;
     opacity: .7;
+}
+
+@media (max-width: 576px) {
+    #card, #bottom-left, #bottom-right {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #bottom {
+        flex-direction: column;
+    }
 }
