@@ -9,8 +9,8 @@ body {
     padding: 20px;
 }
 
+h1,
 h2,
-h4,
 p {
     margin: 0;
 }
@@ -40,12 +40,17 @@ p {
     height: 42.5%;
 }
 
-#top h2 {
-    color: #2bb3b1;
-    margin-bottom: 20px;
+h2 {
+    font-size: 16px;
 }
 
-#top h4 {
+#top h1 {
+    color: #2bb3b1;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#top h2 {
     color: #c0df34;
     margin-bottom: 10px;
 }
@@ -68,8 +73,8 @@ p {
     flex-basis: 50%;
 }
 
-#bottom-left h4,
-#bottom-right h4 {
+#bottom-left h2,
+#bottom-right h2 {
     margin-bottom: 25px;
 }
 
