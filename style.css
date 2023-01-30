@@ -65,6 +65,7 @@ p {
 #bottom-left {
     height: 100%;
     background-color: #2bb3b1;
+    flex-basis: 50%;
 }
 
 #bottom-left h4,
@@ -115,6 +116,7 @@ button:hover {
 #bottom-right {
     height: 100%;
     background-color: #4abebd;
+    flex-basis: 50%;
 }
 
 #bottom-right ul {
