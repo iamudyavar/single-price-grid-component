@@ -78,10 +78,9 @@ p {
     margin-bottom: 22px;
 }
 
-#price-frequency,
-#price {
-    display: inline-block;
-    margin-bottom: 10px;
+#price-container {
+    display: flex;
+    align-items: center;
 }
 
 #price {
@@ -90,11 +89,9 @@ p {
 }
 
 #price-frequency {
-    position: relative;
-    top: -4px;
-    margin-left: 5px;
     font-size: .8rem;
     opacity: .7;
+    margin-left: 5px;
 }
 
 button {
