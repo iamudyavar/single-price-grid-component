@@ -5,10 +5,6 @@ html {
     font-weight: 400;
 }
 
-body {
-    padding: 20px;
-}
-
 h1,
 h2,
 p {
@@ -21,38 +17,46 @@ p {
     box-sizing: inherit;
 }
 
+body {
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
 #card {
-    width: 525px;
-    height: 390px;
-    box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.35);
+    width: 32rem;
     border-radius: 5px;
     overflow: hidden;
+    background-color: white;
+    box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.35);
 }
 
 #top,
 #bottom-left,
 #bottom-right {
-    padding: 30px;
+    padding: 1.8rem;
 }
 
 #top {
     width: 100%;
-    height: 42.5%;
-}
-
-h2 {
-    font-size: 16px;
+    height: 45%;
 }
 
 #top h1 {
     color: #2bb3b1;
-    margin-bottom: 20px;
-    font-size: 24px;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
 }
 
 #top h2 {
     color: #c0df34;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 
 #top p {
@@ -63,49 +67,48 @@ h2 {
 #bottom {
     display: flex;
     width: 100%;
-    height: 57.5%;
+    height: 55%;
     color: white;
 }
 
 #bottom-left {
-    height: 100%;
     background-color: #2bb3b1;
     flex-basis: 50%;
 }
 
 #bottom-left h2,
 #bottom-right h2 {
-    margin-bottom: 25px;
+    margin-bottom: 1.25rem;
 }
 
 #bottom-left p {
     font-size: .8rem;
-    margin-bottom: 22px;
+    margin-bottom: 1.4rem;
 }
 
 #price-container {
     display: flex;
     align-items: center;
+    margin-bottom: 0.6rem;
 }
 
 #price {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 
 #price-frequency {
     font-size: .8rem;
     opacity: .7;
-    margin-left: 5px;
+    margin-left: .5rem;
 }
 
 button {
     color: white;
     background: #c0df34;
     border: none;
-    padding: 10px;
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
     border-radius: 5px;
     font-weight: 700;
 }
@@ -116,7 +119,6 @@ button:hover {
 }
 
 #bottom-right {
-    height: 100%;
     background-color: #4abebd;
     flex-basis: 50%;
 }
